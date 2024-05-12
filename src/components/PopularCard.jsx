@@ -1,10 +1,10 @@
 import React from 'react'
 import { star } from '../assets/icons'
 
-const PopularCard = ({key, product}) => {
+const PopularCard = ({ product}) => {
   return (
 
-        <div  className='flex flex-col rounded-xl cursor-pointer flex-1 justify-center items-center' key={key}>
+        <div  className='flex flex-col rounded-xl cursor-pointer flex-1 justify-center items-center'>
             <img src={product.imgURL} className='w-[280px] h-[280px]'/>
             <div className='flex mt-6 justify-start gap-2.5'>
                 <img src={star} />

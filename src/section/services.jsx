@@ -6,7 +6,7 @@ const Services = () => {
     <section className='flex max-sm:flex-col mt-20 gap-9 justify-center flex-wrap'>
 
         {services.map((service) => (
-            <div id={service.label} className='px-10 py-16 flex flex-1 flex-col sm:min-w-[350px] sm:w-[350px] rounded-[20px] shadow-3xl'>
+            <div id={service.label} key={service.label} className='px-10 py-16 flex flex-1 flex-col sm:min-w-[350px] sm:w-[350px] rounded-[20px] shadow-3xl'>
                 <div className='bg-coral-red rounded-full w-11 h-11 flex items-center justify-center'><
                     img src={service.imgURL} width={20} height={20}  />
                 </div>

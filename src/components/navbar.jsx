@@ -4,7 +4,7 @@ import { navLinks } from '../constants'
 import { hamburger } from '../assets/icons'
 const Navbar = () => {
   return (
-    <nav className='flex justify-between xl:padding-l wide:padding-r padding-b px-10 py-5 items-center absolute w-full z-10'>
+    <nav className='flex justify-between py-5 items-center absolute w-full z-10'>
         <a href='/' ><img src={headerLogo} width={129}
             height={29} /> </a>
         {/* Desktop nav */}

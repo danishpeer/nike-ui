@@ -1,6 +1,6 @@
 # Nike UI/UX
 
-This is learner project and has been developed using react and tailwind css. 
+This is a learner project and has been developed using react and tailwind css. 
 
 ## Getting Started
 

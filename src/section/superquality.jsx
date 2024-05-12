@@ -4,7 +4,7 @@ import Button from '../components/button'
 
 const SuperQuality = () => {
   return (
-    <section id='about-us' className='mt-32  max-lg:flex-col xl:padding-l wide:padding-r padding-b px-10 flex gap-10 justify-between'>
+    <section id='about-us' className='mt-32  max-lg:flex-col flex gap-10 justify-between'>
       <div className='flex flex-col lg:max-w-lg'>
       <h1 className='text-4xl font-bold font-palanquin'>We Provide You <span className='text-coral-red'>Super Quality</span> Shoes</h1>
             <p className='font-montserrat mt-6 text-sm   text-slate-gray leading-8 '>Ensuring premium comfort and style, our meticulously crafted footwear

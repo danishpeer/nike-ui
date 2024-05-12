@@ -7,7 +7,7 @@ import Button from '../components/button'
 const Hero = () => {
     const [selectedImage, setSelectedImage] = useState(bigShoe1)
   return (
-    <section id='home' className='w-full min-h-screen flex lg:flex-row flex-col gap-10 justify-center xl:padding-l wide:padding-r padding-b px-10' >
+    <section id='home' className='w-full min-h-screen flex lg:flex-row flex-col gap-10 justify-center' >
       <div className='relative lg:w-2/5 flex flex-col justify-center items-start w-full  pt-28'>
         <p className='text-xl text-coral-red font-montserrat'>Our Summer Collection</p>
         <h1 className='mt-10 font-palanquin text-7xl max-sm:text-[50px] max-sm:leading-[82px] font-bold'>
